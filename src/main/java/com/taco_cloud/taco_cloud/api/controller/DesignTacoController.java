@@ -16,6 +16,7 @@ import java.util.Optional;
 @Slf4j
 @RequestMapping(path="/api/design")
 @RestController
+@CrossOrigin("*")
 public class DesignTacoController {
 
     private TacoRepository tacoRepository;

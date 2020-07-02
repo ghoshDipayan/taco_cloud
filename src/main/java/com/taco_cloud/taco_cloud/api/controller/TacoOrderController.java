@@ -13,6 +13,7 @@ import javax.persistence.EntityNotFoundException;
 import javax.validation.Valid;
 import java.util.Optional;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping(path="/api/order")
 public class TacoOrderController {

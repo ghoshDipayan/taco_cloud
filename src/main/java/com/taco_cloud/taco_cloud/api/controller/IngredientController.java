@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path="/api/ingredients")
+@CrossOrigin("*")
 public class IngredientController {
 
     private IngredientRepository repo;
